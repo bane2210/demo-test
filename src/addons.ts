@@ -3,5 +3,6 @@ const b = (a: number, c: string): string => {
 };
 
 const bane = "Konj";
+const pavle = "Glupander";
 
 export default b;
