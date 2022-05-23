@@ -1,0 +1,13 @@
+$ime : bane;
+
+@mixin pozadina ($color: white) {
+    background-color: $color;
+}
+
+body {
+    margin: 0;
+
+    div {
+        @include pozadina(green);
+    }
+}
