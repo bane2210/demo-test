@@ -9,5 +9,6 @@ body {
 
     div {
         @include pozadina(green);
+        height: 20px + 180px;
     }
 }
